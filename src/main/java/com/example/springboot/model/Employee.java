@@ -25,8 +25,9 @@ public class Employee {
     private Integer age;
     private String designation;
     private String phoneNumber;
-    private String address;
     private LocalDate joinedOn;
+    private String address;
+    private LocalDate dateOfBirth;
     @CreationTimestamp
     private ZonedDateTime createdAt;
 
